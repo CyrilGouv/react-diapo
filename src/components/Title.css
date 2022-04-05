@@ -1,0 +1,55 @@
+.Title {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.Title h1 {
+    font-size: 6rem;
+}
+
+.Title h1 span {
+    display: block;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .Title {
+        height: 70vh;
+    }
+
+    .Title h1 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Title {
+        height: 60vh;
+    }
+
+    .Title h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Title {
+        height: 50vh;
+    }
+
+    .Title h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Title {
+        height: 40vh;
+    }
+
+    .Title h1 {
+        font-size: 1.5rem;
+    }
+}
